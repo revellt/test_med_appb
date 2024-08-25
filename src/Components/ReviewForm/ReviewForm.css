@@ -1,0 +1,91 @@
+/* Container styling */
+.give-reviews-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styles */
+.give-reviews-container h2,
+.give-reviews-container h3 {
+  text-align: center;
+  color: #333;
+}
+
+/* Button styles */
+.give-reviews-container button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.give-reviews-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styling */
+.give-reviews-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form field container */
+.give-reviews-container form div {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.give-reviews-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input and textarea styling */
+.give-reviews-container input[type="text"],
+.give-reviews-container textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.give-reviews-container textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Warning message styling */
+.give-reviews-container .warning {
+  color: #d8000c;
+  background-color: #ffbaba;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Submitted message styling */
+.give-reviews-container .submitted-message {
+  background-color: #dff2bf;
+  color: #4f8a10;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* Submitted message content styling */
+.give-reviews-container .submitted-message p {
+  margin: 5px 0;
+}

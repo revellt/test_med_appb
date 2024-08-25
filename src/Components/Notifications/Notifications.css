@@ -1,0 +1,68 @@
+/* Container for the entire Notification component */
+.notification-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+/* Styling for the appointment card */
+.appointment-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect for the appointment card */
+.appointment-card:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the content within the appointment card */
+.appointment-card__content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the appointment card title */
+.appointment-card__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling for the appointment card message */
+.appointment-card__message {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Strong text styling for emphasis */
+.appointment-card__message strong {
+    color: #000;
+}
+
+/* Basic styling for the Navbar component */
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
